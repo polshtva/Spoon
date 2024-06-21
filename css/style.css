@@ -1,0 +1,72 @@
+:root {
+    --fontTitle: "Libre Franklin", sans-serif;
+    --fontText: "IBM Plex Mono", monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 4px;
+    background: rgb(90, 185, 99);
+    color: rgb(255, 255, 255);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: transform  1.5s ease;
+}
+
+
+.btn:hover {
+    transform: scale(1.3);
+}
