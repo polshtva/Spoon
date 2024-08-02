@@ -64,6 +64,10 @@
 
 
 @media (max-width: 840px) {
+    .offers {
+        margin-top: 70px;
+    }
+
     .offers__item {
         flex-wrap: wrap;
     }
@@ -74,7 +78,15 @@
         row-gap: 10px;
     }
 
-    .offers__item:last-child img{
+    .offers__item:last-child img {
         order: -1;
     }
-}  
+
+    .offers__info-block {
+        margin-top: 50px;
+    }
+
+    .offers>.container-decoration {
+        padding-bottom: 70px;
+    }
+}

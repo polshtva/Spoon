@@ -39,8 +39,12 @@
 }
 
 
-@media (max-width: 1400px){
-    .advert__contant{
+@media (max-width: 1400px) {
+    .advert {
+        margin-top: 40px;
+    }
+
+    .advert__contant {
         text-align: start;
         transform: translateX(0);
     }

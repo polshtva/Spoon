@@ -40,6 +40,9 @@
 }
 
 @media(max-width:720px){
+    .party {
+        padding: 70px 0;
+    }
     .party__contant{
         flex-wrap: wrap;
         row-gap: 10px;

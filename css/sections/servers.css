@@ -2,10 +2,6 @@
     margin-top: 120px;
 }
 
-.servers__contant {}
-
-
-
 .servers__info {
     font-size: 24px;
     max-width: 507px;
@@ -34,7 +30,7 @@
     transition: transform 1s ease;
 }
 
-.servers__offers-item:hover{
+.servers__offers-item:hover {
     transform: scale(1.1);
 }
 
@@ -58,13 +54,17 @@
     text-align: left;
 }
 
-@media(max-width:840px){
-    .servers__offers-list{
+@media(max-width:840px) {
+    .servers {
+        margin-top: 40px;
+    }
+
+    .servers__offers-list {
         flex-wrap: wrap;
         row-gap: 20px;
     }
 
-    .servers__offers-item{
+    .servers__offers-item {
         width: 100%;
     }
 
