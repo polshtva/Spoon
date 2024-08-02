@@ -1,7 +1,7 @@
-@import url(style.css);
-@import url(section/gretting.css);
-@import url(section/servers.css);
-@import url(section/advert.css);
-@import url(section/offer.css);
-@import url(section/party.css);
-@import url(section/footer.css);
+@import url(basic.css);
+@import url(sections/grettings.css);
+@import url(sections/servers.css);
+@import url(sections/adver.css);
+@import url(sections/offers.css);
+@import url(sections/party.css);
+@import url(sections/footer.css);
